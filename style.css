@@ -411,7 +411,7 @@ section#sec_instrucao{
     padding-bottom: 2.5em;
 }
 
-div#div_inst_bg{
+div.div_inst_bg{
     background-color: var(--yllw);
     
     width: 100%;
@@ -601,8 +601,9 @@ ul.ul_menu_ft_si > li:hover{
 }
 
 /*
-    Desktop : 905px ^
-    Tablet e derivados : 
+    Desktop : 905px+
+    Tablet e derivados : 667px+ & 905px-
+    Mobile : 667px- 
 */
 
 /* MQ - Tablets */
@@ -697,6 +698,10 @@ ul.ul_menu_ft_si > li:hover{
     }
     div.div_icn > p{
         padding-bottom: 1em;
+    }
+    div.div_inst_img{
+        height: 96px;
+        width: 98px;
     }
     img.img_inst{
         width: 48px;
